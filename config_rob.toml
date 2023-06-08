@@ -1,0 +1,27 @@
+baseURL = 'https://rob.rip'
+languageCode = 'en-us'
+title = 'Robs Links'
+theme = "lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Rob.rip"
+  headline = "Rob's Links Around the Web"
+  image = "author_rob.jpg"
+  links = [
+    { link = { href = "styles/", text = "All the link styles", target = "_self" } },
+    { github = "https://github.com/melroser" },
+    { twitter = "https://twitter.com/themelroser" },
+    { facebook = "https://twitter.com/themelroser" },
+    { instagram = "https://instagram.com/themelroser" },
+    { font-awesome = { href = "https://fontawesome.com/", text = "FontAwesome" } },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
