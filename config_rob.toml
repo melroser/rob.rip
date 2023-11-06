@@ -1,6 +1,6 @@
 baseURL = 'https://rob.rip'
 languageCode = 'en-us'
-title = 'Robs Links'
+title = 'Robs '
 theme = "lynx"
 
 enableEmoji = true
@@ -12,11 +12,11 @@ disableKinds = ["taxonomy", "term"]
   image = "author_rob.jpg"
   links = [
     { link = { href = "styles/", text = "All the link styles", target = "_self" } },
+    { melroser.com = "https://melroser.com" },
     { github = "https://github.com/melroser" },
     { twitter = "https://twitter.com/themelroser" },
-    { facebook = "https://twitter.com/themelroser" },
+    { facebook = "https://facebook.com/themelroser" },
     { instagram = "https://instagram.com/themelroser" },
-    { font-awesome = { href = "https://fontawesome.com/", text = "FontAwesome" } },
   ]
 
 [markup.highlight]
